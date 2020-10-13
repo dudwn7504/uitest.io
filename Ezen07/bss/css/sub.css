@@ -1,0 +1,15 @@
+@charset "UTF-8";
+	body{margin: 0;padding: 0;height: 100%; display: block; opacity: 1;min-width: 560px; }
+	.logo{position: fixed; top: 0;left: 0; background: url("./img/logo-color.png") no-repeat;  z-index:2;  color: black;font-size: 36px;width: 106px;height: 76px; padding-left: 46px;margin-left: 30px;margin-top: 18px;}
+	.side{background: url("./join/01-1.jpg");}
+	.side{width: 480px; position: fixed; top: 0;left: 0;height: 100%;float: left;background-repeat: no-repeat; background-position: center; background-size: cover;}
+	
+	.main-wrapper {position: relative; height: 100%;margin-left: 480px;}
+	.main-wrapper .main{top: 50%; margin-top: 392.5px;}
+	.main-wrapper .main .form {position: relative; margin: 0 auto; width: 480px;}
+	.main-wrapper .main .form .form-title{}
+	.main-wrapper .main .form .form-title .title{font-size: 44px;margin-bottom: 20px;} 
+	.main-wrapper .main .form .form-title .header{font-size: 28px; line-height: 1.2;color: #333}
+	.actionform input{width: 400px;height: 52px; line-height: 50px;padding: 0 20px; margin-top: 24px; margin-bottom: 24px;border-radius: 5px; border: 1px solid #777;}
+	.actionform .actionform_btn {background: #307CEB; font-size: 32px; color: white; width: 442px; }
+	.foot{position: fixed; bottom: 0; width: 798px; font-size: 14px; color:#bbb;text-align: center;margin: 30px 0;}

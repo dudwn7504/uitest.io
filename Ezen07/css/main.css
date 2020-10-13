@@ -1,0 +1,30 @@
+@charset "UTF-8";
+	#pg1 .wrap{height: 1198px;width: 100%;}
+	#pg1 .crossbanner ul{position: relative;width: 100%;height: 100%;overflow: hidden;margin: 0 auto;min-width: 1007px;}
+	#pg1 .crossbanner ul .pcqq { background: url("./img/top_banner.jpg") no-repeat center center; background-size: cover;}
+	.crossbanner li { position: absolute; left: 50%; top: 0; width: 1920px; height: 100%; margin: 0 0 0 -960px; z-index: 1;}
+	.pcqq > .int {position: absolute;left:0;top:0;bottom:0;right:0;flex-direction: column;justify-content: center;align-items: center; display: flex!important;}
+	.int-title{font-size: 75px; font-weight: 600; color:white;text-align: center; line-height: 1;letter-spacing: 2px;}
+	.int-sub{color:white; font-size:17px;font-weight: 300; font-style: normal; text-align: center;letter-spacing: 2px;line-height: 1;}
+	.int-btn{background: url("./img/btn-download.png");display: inline-block; margin-top: 105px; width: 300px; height: 70px; background-size: cover; color: transparent; text-decoration: none; vertical-align: top; text-align: center; }
+	
+	.content{width: 100%;}
+	.content .con-title{width: 100%; height: 0;overflow: hidden; padding-top: 280px; background: url("./img/brand.png") no-repeat center top;}
+	.content .activebg{position: relative; width: 100%;height: 600px; background: #fff; background-attachment: fixed; background-position: center; background-repeat: no-repeat;}
+	.content .fisrtbg{background: url("./img/fisrtbg.jpg");}
+	@media screen and (min-width:1921px){
+		.crossbanner li {width: 100%; left:50%; margin-left: -50%; }
+	}
+	
+	.qfigure{width: 100%;height: 584px;background: #fff;}
+	.qfigure .qw960{position: relative; width: 960px;height: 584px;margin: 0 auto;}
+	.qfigure .qw960 .txtwrap-title{width: 100%; height: 0; overflow: hidden;padding-top: 135px;background: transparent url("./img/qcall_txt.png") no-repeat 0 0; }
+	.qfigure .qw960 .txtwrap{position: absolute;right: 7px;top: 115px;width: 487px;}
+	.qfigure .qw960 p{width: 100%; margin-bottom: 12px; line-height: 25px; text-align: right; opacity: 0.6; font-size: 18px; letter-spacing: 0.12em;}
+	.qfigure .qw960 .knmore {color:#12b7f5}
+	.qfigure .qw960 .figs{width: 100%;padding-top: 44px;min-height: 77px; background: transparent url("./img/qcall_figs.png") no-repeat 190px 41px;}
+	.qfigure .qw960 .figs li {float: right; border-left: 1px solid #e9e9e9; padding: 58px 0 0; color: #a0a0a0; font-size: 14px}
+	.qfigure .qw960 .figs .f01{width: 80px; text-align: right; margin-right: 37px;}
+	.qfigure .qw960 .figs .f02{width: 109px; text-align: center;}
+	.qfigure .qw960 .figs .f03{width: 156px; text-align: center; border: none;}
+	.qfigure .qw960 .qcallAnimate{position: absolute; left:-32px; bottom: 0;width: 664px;height: 763px;background: transparent url("./img/pic1.png")no-repeat 0 0;}
